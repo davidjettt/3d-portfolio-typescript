@@ -1,0 +1,113 @@
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#body-main {
+  position: absolute;
+  margin-left: 20px;
+}
+
+.tech-icons-container img{
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  color: white;
+}
+
+.project-image {
+  width: 25vw;
+}
+
+.project-name {
+  font-size: 2rem;
+  color: white;
+  margin: 0 0 10px 0;
+}
+
+.devicon-flask-original-wordmark,
+.devicon-github-original-wordmark,
+.devicon-express-original-wordmark,
+.devicon-threejs-original-wordmark {
+  font-size: 100px;
+  color: white;
+}
+
+
+.section
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #ffeded;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section:nth-child(odd)
+{
+    justify-content: flex-end;
+}
+
+a {
+  color: teal;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.project-links-container {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.project-description {
+  width: 80%;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resume-link {
+  font-size: 30px;
+  margin-top: 15px;
+  border: 1px solid teal;
+  padding: 11px;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  text-decoration: none;
+}
+
+.resume-link:hover {
+  color: black;
+  background-color: teal;
+}
+
+.linkedin-icon,
+.github-icon {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+}
